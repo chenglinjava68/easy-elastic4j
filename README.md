@@ -2,7 +2,7 @@
 
 elasticsearch原生client api相对来说还是比较复杂的,大多数的api在实际的业务场景中可能用不到,easy-elastic4j只是封装了常见的操作,简化了使用难度,对初学者也非常友好.
 
-## EXAMPLE
+## Example
 
 ```
 
@@ -62,3 +62,19 @@ elasticsearch原生client api相对来说还是比较复杂的,大多数的api�
 
 
 ```
+
+# Query Condition
+
+*FieldEqual 相等
+*FieldNotEqual 不相等
+*FieldExist 字段存在
+*Nearby 地理位置附近
+*NearbyRange 地理位置范围
+*NoneInField not in匹配
+*OneInField in匹配
+*Prefix 前缀匹配
+*QueryString 原生查询字符串
+*Range 范围比较
+*And and组合
+*Or or组合
+*Not 取反
